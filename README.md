@@ -16,7 +16,7 @@
 
 <br>
 
-<img src="docs/images/pcb_3d_angled.png" alt="CORE-328PB 3D render" width="70%" />
+<img src="docs/images/pcb_3d_ang led.png" alt="CORE-328PB 3D render" width="70%" />
 
 <sub><b>Figure 1</b> · 3D render of the CORE-328PB (Rev A), top side.</sub>
 
