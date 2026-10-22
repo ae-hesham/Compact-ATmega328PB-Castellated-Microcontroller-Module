@@ -1,0 +1,18 @@
+Designator,Qty,Value,Description,Manufacturer,Manufacturer Part Number,Footprint,Notes
+U1,1,ATmega328PB-MUR,"8-bit AVR MCU, 32 KB Flash, 20 MHz, VFQFN-32 (5x5 mm)",Microchip,ATMEGA328PB-MUR,QFN50P500X500X90-33N,
+U2,1,FT232RL,"USB to UART bridge, SSOP-28",FTDI,FT232RL,SOP65P780X200-28N,
+U3,1,LM1117IMPX-5.0,"800 mA low-dropout linear regulator, 5.0 V, SOT-223",Texas Instruments,LM1117IMPX-5.0,DCY0004A_M,
+X1,1,16 MHz,"SMT crystal, 16 MHz",Aker,C5S-16.000-12-3030-X,Aker S5C SMT Crystal,
+J1,1,USB micro-B,"USB 2.0 micro-B receptacle, 5 position, through-hole",GCT,USB3131-30-0230-A_REVB,GCT_USB3131-30-0230-A_REVB,
+D1,1,Schottky 0.5 A / 20 V,"Panasonic DB2J20900L Schottky diode, 0.5 A, 20 V, SMini2-F5-B",Panasonic,DB2J20900L,DIOM1712X07N,
+C1,1,4.7 uF,"Polymer tantalum, 4.7 uF, 20%, 63 V, 7343, low ESR 75 mOhm, max height 3.1 mm",KEMET,T521D475M063ATE075,CAPMP7.6X4.3_3.1N_KEM,
+"C2, C3, C4, C5",4,1 uF,"Ceramic capacitor, 1 uF, 20%, 25 V, X5R, 0603",Yageo,CC0603MRX5R8BB105,CAPC1608X90,
+"C7, C8, C10",3,100 nF,"Ceramic capacitor, 100 nF, 0603, X5R",TBD,TBD,CAPC1608X90,"BOM ERROR: source BOM lists CC0603MRX5R8BB105 (1 uF) for these designators. Assign a correct 100 nF part."
+"C9, C11",2,18 pF,"Ceramic capacitor, 18 pF, 5%, 50 V, C0G, 0805",KEMET,C0805C180J5GACTU,CAPCP2012X09N,
+"R1, R3, R4, R5, R6, R7, R8",7,1 k,"Resistor, 1 kOhm, 1%, 100 mW, 0603",Bourns,CR0603AFX-1001EAS,RESC1608X55N,
+LED1,1,Green,"Kingbright green LED, 70 mcd, 120 deg, 0805",Kingbright,,LED1913X12NGREEN,Part number not specified in source BOM
+LED2,1,Orange,"Kingbright orange LED, 200 mcd, 120 deg, 0805",Kingbright,,LED1913X12NYEL/ORANGE,Part number not specified in source BOM
+LED3,1,Red,"Kingbright red LED, 100 mcd, 120 deg, 0805",Kingbright,,LED1913X12NRED,Part number not specified in source BOM
+LED4,1,Green,"Kingbright green LED, 70 mcd, 120 deg, 0805",Kingbright,,LED1913X12NGREEN,Part number not specified in source BOM
+SW1,1,Tactile switch,"Tactile switch SPST-NO, 0.05 A, 12 V",C&K,PTS635SK25SM,FP-PTS635SK25SM-MFG,
+"+5V, A0-A7, AREF, D0-D13, GND, VCC",26,Castellated pad,"Custom castellated edge pad",,,PCBComponent_1,PCB feature (no purchased part)
